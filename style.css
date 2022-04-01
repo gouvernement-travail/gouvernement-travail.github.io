@@ -6,5 +6,11 @@ main{
 
 [data-rf-reset] a[target="_blank"]::after{
     display: none;
+}
 
+
+[data-rf-reset] a:focus, [class^="rf-"] a:focus, [class*=" rf-"] a:focus, .rf-prose a:focus, .rf-breadcrumb__item a:focus {
+    outline: 0px solid var(--focus) !important;
+    outline-offset: 50px !important;
+    z-index: var(--focus-z-index);
 }
