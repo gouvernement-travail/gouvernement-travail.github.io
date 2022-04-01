@@ -8,3 +8,9 @@ main{
     padding-top: 40px !important;
     margin-bottom: 20px;
 }
+
+
+[data-rf-reset] a[target="_blank"]::after{
+    display: none;
+
+}
