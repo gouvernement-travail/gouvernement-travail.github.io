@@ -14,3 +14,7 @@ main{
     outline-offset: 50px !important;
     z-index: var(--focus-z-index);
 }
+
+/* .gros{
+    font-size: larger;
+} */
